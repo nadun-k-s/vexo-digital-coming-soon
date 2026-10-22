@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vexo Digital Labs – Coming soon</title>
+<meta name="description" content="Vexo Digital Labs is coming soon.">
+<style>
+  :root { --bg:#f2f4f7; --ink:#14213d; --muted:#55607a; --accent:#2f5bea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#101626; --ink:#eef1f8; --muted:#a4aec6; --accent:#7f9cff; }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    text-align: center;
+  }
+  main { max-width: 640px; }
+  .name {
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+    color: var(--muted);
+    margin: 0 0 24px;
+  }
+  h1 {
+    font-family: "Iowan Old Style", Georgia, "Times New Roman", serif;
+    font-weight: 600;
+    font-size: clamp(2.8rem, 11vw, 5.5rem);
+    line-height: 1.05;
+    letter-spacing: -.02em;
+    margin: 0 0 24px;
+  }
+  .bar { width: 56px; height: 4px; border-radius: 2px; background: var(--accent); margin: 0 auto; }
+</style>
+</head>
+<body>
+<main>
+  <p class="name">Vexo Digital Labs</p>
+  <h1>Coming soon</h1>
+  <div class="bar" aria-hidden="true"></div>
+</main>
+</body>
+</html>
